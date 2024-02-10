@@ -1,80 +1,25 @@
 import { useState } from "react";
-import React from 'react';
+import './card.css'
 
-const products = [
-  {
-    id:1,
-    imageUrl:"../../public/big-mac.jpg",
-    productName:"Big Mac",
-    price:2
-  },
-  {
-    id:2,
-    imageUrl:"../../public/big-mac.jpg",
-    productName:"Big Mac",
-    price:2
-  },
-  {
-    id:3,
-    imageUrl:"../../public/big-mac.jpg",
-    productName:"Big Mac",
-    price:2
-  },
-  {
-    id:4,
-    imageUrl:"../../public/big-mac.jpg",
-    productName:"Big Mac",
-    price:2
-  },
-  {
-    id:5,
-    imageUrl:"../../public/big-mac.jpg",
-    productName:"Big Mac",
-    price:2
-  },
-  {
-    id:6,
-    imageUrl:"../../public/big-mac.jpg",
-    productName:"Big Mac",
-    price:2
-  },
-  {
-    id:7,
-    imageUrl:"../../public/big-mac.jpg",
-    productName:"Big Mac",
-    price:2
-  },
-  {
-    id:8,
-    imageUrl:"../../public/big-mac.jpg",
-    productName:"Big Mac",
-    price:2
-  },
-  {
-    id:9,
-    imageUrl:"../../public/big-mac.jpg",
-    productName:"Big Mac",
-    price:2
-  },
-  {
-    id:10,
-    imageUrl:"../../public/big-mac.jpg",
-    productName:"Big Mac",
-    price:2
+function Card({imageUrl, productName, price}) {
+
+  let [count, setCount] = useState(0);
+
+  function handleChange(event) {
+    const value = Number(event.target.value);
+    setCount(value);
   }
-]
-
-function Card() {
-  const [count, setCount] = useState(0);
+  
   return (
-    <div>
-      {products.map(({id, imageUrl, productName, price}) => (
-        <div key={id}>
-          <img src="../public/billgates.jpg" alt={productName} />
-          <h2>{productName}</h2>
-          <p>${price}</p>
-        </div>
-      ))}
+    <div className="card">
+      <img src={imageUrl} alt={productName} />
+      <h2>{productName}</h2>
+      <p>${price}</p>
+      <div className="count-control">
+        <button className="sell" onClick={() => {setCount(count - 1)}}>Sell</button>
+        <input value={count} type="number" onChange={handleChange}/>
+        <button className="buy" onClick={() => {setCount(count + 1)}}>Buy</button>
+      </div>
     </div>
   );
 }

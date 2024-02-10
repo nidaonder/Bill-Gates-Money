@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "imageUrl": "big-mac.jpg",
+      "productName": "Big Mac",
+      "price": 2
+    },
+    {
+      "id": 2,
+      "imageUrl": "book.jpg",
+      "productName": "Book",
+      "price": 15
+    },
+    {
+      "id": 3,
+      "imageUrl": "coca-cola-pack.jpg",
+      "productName": "Coca Cola",
+      "price": 5
+    },
+    {
+      "id": 4,
+      "imageUrl": "drone.jpg",
+      "productName": "Drone",
+      "price": 350
+    },
+    {
+      "id": 5,
+      "imageUrl": "flip-flops.jpg",
+      "productName": "Flip Flops",
+      "price": 1000
+    },
+    {
+      "id": 6,
+      "imageUrl": "jet-ski.jpg",
+      "productName": "Jet Ski",
+      "price": 7500
+    },
+    {
+      "id": 7,
+      "imageUrl": "lobster-dinner.jpg",
+      "productName": "Lobster Dinner",
+      "price": 900
+    },
+    {
+      "id": 8,
+      "imageUrl": "movie-ticket.jpg",
+      "productName": "Movie Ticket",
+      "price": 500
+    },
+    {
+      "id": 9,
+      "imageUrl": "yacht.jpg",
+      "productName": "Yacht",
+      "price": 15000000
+    },
+    {
+      "id": 10,
+      "imageUrl": "year-of-netflix.jpg",
+      "productName": "Netflix",
+      "price": 750
+    },
+    {
+        "id": 11,
+        "imageUrl": "big-mac.jpg",
+        "productName": "Big Mac",
+        "price": 2
+      },
+      {
+        "id": 12,
+        "imageUrl": "book.jpg",
+        "productName": "Book",
+        "price": 15
+      },
+      {
+        "id": 13,
+        "imageUrl": "coca-cola-pack.jpg",
+        "productName": "Coca Cola",
+        "price": 5
+      },
+      {
+        "id": 14,
+        "imageUrl": "drone.jpg",
+        "productName": "Drone",
+        "price": 350
+      },
+      {
+        "id": 15,
+        "imageUrl": "flip-flops.jpg",
+        "productName": "Flip Flops",
+        "price": 1000
+      },
+      {
+        "id": 16,
+        "imageUrl": "jet-ski.jpg",
+        "productName": "Jet Ski",
+        "price": 7500
+      },
+      {
+        "id": 17,
+        "imageUrl": "lobster-dinner.jpg",
+        "productName": "Lobster Dinner",
+        "price": 900
+      },
+      {
+        "id": 18,
+        "imageUrl": "movie-ticket.jpg",
+        "productName": "Movie Ticket",
+        "price": 500
+      },
+      {
+        "id": 19,
+        "imageUrl": "yacht.jpg",
+        "productName": "Yacht",
+        "price": 15000000
+      },
+      {
+        "id": 20,
+        "imageUrl": "year-of-netflix.jpg",
+        "productName": "Netflix",
+        "price": 750
+      }
+  ]
+

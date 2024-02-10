@@ -1,14 +1,14 @@
 import './App.css';
 import Money from './components/money/Money';
 import Profile from './components/profile/Profile';
-import Card from './components/card/Card';
+import Content from './components/content/Content';
 
 function App() {
   return (
     <div className="App">
       <Profile />
       <Money />
-      <Card />
+      <Content />
     </div>
   );
 }
